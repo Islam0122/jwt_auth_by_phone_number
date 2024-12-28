@@ -11,7 +11,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 PRODUCTION = True
 
-TEXTBELT_API_KEY = "9ab891d32d30d3f191a0183697c21b4b5fd9ab31Wk0crHQV3M0rvFXT93RkLtdSK"
+INFOBIP_API_KEY = "6d7d0807b8c2146b8d683f66e39b3d49-1d8864a1-9c40-480e-ab4b-d9ebf226cb87"
+INFOBIP_BASE_API = "xkmqwe.api.infobip.com"  # Замените на свой региональный URL
 
 INSTALLED_APPS = [
     'jazzmin',
