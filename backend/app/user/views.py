@@ -21,6 +21,8 @@ class UserRegistrationView(generics.CreateAPIView):
     serializer_class = UserRegistrationSerializer
     permission_classes = [permissions.AllowAny]
 
+
+
 # Профиль пользователя
 class UserProfileView(generics.RetrieveUpdateAPIView):
     """
