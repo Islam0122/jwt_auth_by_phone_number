@@ -32,6 +32,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
             "id",
             "phone_number",
             "email",
+            "otp",
             "password1",
             "password2",
         )
