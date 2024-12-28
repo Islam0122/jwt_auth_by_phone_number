@@ -45,6 +45,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
                 raise serializers.ValidationError("Пароли не совпадают.")
         return data
 
+
     def create(self, validated_data):
         otp = random.randint(1000, 9999)
         otp_expiry = timezone.now() + timedelta(minutes=10)  # Время действия OTP
